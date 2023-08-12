@@ -38,7 +38,7 @@ sizes = list(activity_counts.values())
 fig, ax = plt.subplots()
 ax.pie(sizes, labels=labels, colors=colors, explode=explode, autopct="%1.1f%%", shadow=True, startangle=140)
 ax.axis("equal")
-ax.set_title(f"GitHub Aktiviteleri - {github_username}", fontsize=16, fontweight="bold", color="#333333")
+ax.set_title(f"GitHub Summary- {github_username}", fontsize=16, fontweight="bold", color="#333333")
 
 # graphics more style
 for text in ax.texts:
